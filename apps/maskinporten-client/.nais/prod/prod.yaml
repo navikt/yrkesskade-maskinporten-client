@@ -1,0 +1,6 @@
+name: yrkesskade-maskinporten-client
+ingresses:
+  - https://yrkesskade-maskinporten-client.intern.nav.no
+env:
+  - name: SPRING_PROFILES_ACTIVE
+    value: prod
