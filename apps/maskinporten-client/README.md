@@ -1,8 +1,6 @@
 # Yrkesskade Maskinporten Client
-![](https://github.com/navikt/yrkesskade-maskinporten-client/workflows/continuous%20integration/badge.svg)
-![](https://github.com/navikt/yrkesskade-maskinporten-client/workflows/release%20bidrag-maskinporten-client/badge.svg)
 
-Applikasjonen gir Team Yrkesskade mulighet til å utstede gyldige tokens for test av endepunkter som krever Maskinporten-tokens. Applikasjonen kjører i intern sone på GCP og skal kun brukes i forbindelse med test. Kan ikke kalles på av andre tjenester. Koble til `naisdevice` og bruk `/token` eller swagger-ui på `/` for å generere token.
+En Spring Boot-applikasjon gir Team Yrkesskade mulighet til å utstede gyldige tokens for test av endepunkter som krever Maskinporten-tokens. Applikasjonen kjører i intern sone på GCP og skal kun brukes i forbindelse med test. Kan ikke kalles på av andre tjenester. Koble til `naisdevice` og bruk `/token` eller swagger-ui på `/` for å generere token.
 
 Applikasjonen ligger tilgjengelig på:
 * [https://yrkesskade-maskinporten-client.dev.intern.nav.no/](https://yrkesskade-maskinporten-client.dev.intern.nav.no/) (dev-gcp)
