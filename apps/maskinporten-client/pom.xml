@@ -10,7 +10,7 @@
 
   <groupId>no.nav.yrkesskade</groupId>
   <artifactId>yrkesskade-maskinporten-client</artifactId>
-  <version>1.0.18-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>16</maven.compiler.source>
