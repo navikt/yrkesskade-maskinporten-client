@@ -42,7 +42,7 @@ Disse scopene vil da dukke opp i environment-variabelen `MASKINPORTEN_SCOPES` og
 
 ---
 
-# Henvendelser
+# Henvendelser 
 
 Spørsmål knyttet til koden eller prosjektet kan:
 - stilles som issues her på GitHub
