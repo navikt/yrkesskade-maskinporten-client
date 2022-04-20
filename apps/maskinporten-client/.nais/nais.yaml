@@ -32,6 +32,7 @@ spec:
     scopes:
       consumes:
         - name: "nav:yrkesskade:skademelding.write"
+        - name: "nav:yrkesskade:kodeverk.read"
   ingresses:
   {{#each ingresses as |url|}}
      - {{url}}
