@@ -1,5 +1,11 @@
 # Yrkesskade Maskinporten Client
 
+> ⚠️ Arkivert ⚠️
+>
+> Dette repositoriet er flyttet til Yrkesskades monorepo og vil derfor ikke få noen videre oppdateringer.
+> 
+> Flyttingen er gjennomført fordi koden er mest relevant for utviklere i Team Yrkesskade og det forenkler vedlikeholdet av kodebasen.
+
 En Spring Boot-applikasjon gir Team Yrkesskade mulighet til å utstede gyldige tokens for test av endepunkter som krever Maskinporten-tokens. Applikasjonen kjører i intern sone på GCP og skal kun brukes i forbindelse med test. Kan ikke kalles på av andre tjenester. Koble til `naisdevice` og bruk `/token` eller swagger-ui på `/` for å generere token.
 
 Applikasjonen ligger tilgjengelig på:
